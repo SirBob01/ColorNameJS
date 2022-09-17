@@ -1,6 +1,6 @@
 {
   "name": "color-name-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "find the name of any color",
   "main": "./build/colorname.js",
   "module": "./build/colorname.js",
@@ -20,6 +20,11 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.18",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
